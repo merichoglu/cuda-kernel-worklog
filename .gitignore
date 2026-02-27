@@ -1,0 +1,27 @@
+# Compiled binaries
+kernels/matmul/01_naive
+kernels/matmul/02_tiled
+kernels/matmul/03_vectorized
+kernels/matmul/04_blocktiling2d
+
+kernels/reduction/01_naive
+kernels/reduction/02_interleaved
+kernels/reduction/03_sequential
+kernels/reduction/04_warp_primitives
+
+kernels/softmax/01_naive
+kernels/softmax/02_online_stable
+
+kernels/layernorm/01_naive
+kernels/layernorm/02_fused
+
+# Nsight Compute profiles
+*.ncu-rep
+*.nsys-rep
+benchmarks/*.ncu-rep
+
+# Object files
+*.o
+
+PLAN.md
+.vscode/
