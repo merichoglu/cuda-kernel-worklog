@@ -19,7 +19,7 @@ GPU: NVIDIA Quadro P2200 — Pascal SM 6.1 — 174 GB/s — ~4.3 TFLOP/s FP32
 
 | Step | Description          | GB/s | GFLOP/s | Occupancy | Notes |
 |------|----------------------|------|---------|-----------|-------|
-| 01   | Naive                |      |         |           |       |
+| 01   | Naive                | 27.90 | 6.98   |           | 16% of peak BW |
 | 02   | Interleaved          |      |         |           |       |
 | 03   | Sequential addressing|      |         |           |       |
 | 04   | Warp primitives      |      |         |           |       |
